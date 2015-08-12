@@ -2,8 +2,6 @@ Window Remote Version 1.0.0
 
 Window Remote utilizes DisplayFusion Keybinds, Unified Custom Remotes and Windows 10 KeyBinds to give you full window control!
 
-                                       ****Make sure to update your Keybindings to match these****
-
 Controls and Keybinds
 
 
