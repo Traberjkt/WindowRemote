@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<row>
+		<button text="Next Window" ontap="nextwindow" color="Blue" />
+	</row>
+	<row>
+		<button text="Maximize Window" ontap="maximize" color="Red"/>
+	</row>
+	<row>
+		<button text="Minimize Window" ontap="minimize" color="Yellow" />
+	</row>
+	<row>
+		<button text="Desktop/Restore Windows" ontap="desktop" color="Pink"/>
+	</row>
+	<row>
+		<button text="Window Select" ontap="windowselect" color="Green"/>
+	</row>
+</layout>
