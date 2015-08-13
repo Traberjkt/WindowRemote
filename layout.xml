@@ -2,35 +2,35 @@
 <layout>
 	<tabs>
 		<tab text="Window Remote">
-			<row weight="0.5">
+			<row weight="0.5" color="#336699">
 				<button text="Next Window" ontap="nextwindow"/>
 				<button text="Previous Window" ontap="previouswindow"/>
 			</row>
 			<row weight="0.5">
-				<button text="Cycle Windows" ontap="cs"/>
+				<button text="Cycle Windows" ontap="cs" color="black"/>
 			</row>
 			<row weight="0.5">
-				<button text="Maximize Window" ontap="maximize"/>
-				<button icon="docclose" ontap="close"/>
-				<button text="Minimize Window" ontap="minimize"/>
+				<button text="Maximize Window" ontap="maximize" color="#336699"/>
+				<button icon="docclose" ontap="close" color="#930000"/>
+				<button text="Minimize Window" ontap="minimize" color="#336699"/>
 			</row>
 			<row weight="0.5">
-				<button text="New Virtual Desktop" ontap="nvd"/>
-				<button text="Close Virtual Desktop" ontap="cvd"/>
+				<button text="New Virtual Desktop" ontap="nvd" color="#336699"/>
+				<button text="Close Virtual Desktop" ontap="cvd" color="#336699"/>
 			</row>\\\\
 			<row weight="0.5">
-				<button icon="arrowleft" ontap="dl"/>
-				<button icon="arrowright" ontap="dr"/>
+				<button icon="arrowleft" ontap="dl"  color="black"/>
+				<button icon="arrowright" ontap="dr"  color="black"/>
 			</row>
 			<row weight="0.5">
-				<button text="Window Select" ontap="ws"/>
+				<button text="Window Select" ontap="ws" color="#336699"/>
 			</row>
 			<row weight="0.5">
-				<button icon="arrowup" ontap="scrollup"/>
-				<button icon="arrowdown" ontap="scrolldown"/>
+				<button icon="arrowup" ontap="scrollup" color="black"/>
+				<button icon="arrowdown" ontap="scrolldown" color="black"/>
 			</row>
 			<row>
-				<button icon="window" ontap="desktop"/>
+				<button icon="window" ontap="desktop" color="black"/>
 			</row>
 		</tab>
 	</tabs>
